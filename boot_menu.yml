@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: blue-build/template
+  - label: kerwood/cloud-os
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: blue-build/template
+      - label: cloud-os
