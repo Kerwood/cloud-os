@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: cloud-os-main
+name: cloud-os-main-test
 description: Fedora Silverblue image with a bunch of cloud native tools.
 
 # the base image to build on top of (FROM) and the version tag to use
