@@ -1,0 +1,60 @@
+modules:
+  - type: script
+    scripts:
+      - install-argocd-cli.sh
+      - install-atuin.sh
+      - install-dive.sh
+      - install-gum.sh
+      - install-k9s.sh
+      - install-kind.sh
+      - install-krew.sh
+      - install-kubectl.sh
+      - install-kubectx.sh
+      - install-kubens.sh
+      - install-lazydocker.sh
+      - install-mirrord.sh
+      - install-mkcert.sh
+      - install-paping.sh
+      - install-sshs.sh
+      - install-stern.sh
+      - install-syft.sh
+      - install-trivy.sh
+      - install-zellij.sh
+      - setup-gcloud-repo.sh
+
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/atim/lazygit/repo/fedora-%OS_VERSION%/atim-lazygit-fedora-%OS_VERSION%.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+    install:
+      - nautilus-open-any-terminal
+      - docker
+      - starship
+      - zsh
+      - jq
+      - httpie
+      - ripgrep
+      - eza
+      - bat
+      - just
+      - git
+      - neovim
+      - xclip
+      - azure-cli
+      - google-cloud-cli
+      - distrobox
+      - lazygit
+      - fzf
+      - btop
+      - stow
+      - sslscan
+      - helm
+      - zoxide
+      - duf
+      - ncdu
+      - ShellCheck
+      - tailscale
+    remove:
+      - nvtop

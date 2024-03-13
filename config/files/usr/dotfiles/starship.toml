@@ -1,0 +1,65 @@
+format = """
+$username\
+$hostname\
+$shlvl\
+$directory\
+$kubernetes\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hg_branch\
+$package\
+$golang\
+$helm\
+$kotlin\
+$nim\
+$nodejs\
+$rust\
+$terraform\
+$vagrant\
+$nix_shell\
+$memory_usage\
+$env_var\
+$custom\
+$cmd_duration\
+$line_break\
+$lua\
+$jobs\
+$battery\
+$time\
+$status\
+$character"""
+
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[➜](bold red)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+
+[battery]
+discharging_symbol = " 🔌 "
+charging_symbol = " ⚡ "
+
+[[battery.display]]
+threshold = 25
+style = "bold yellow"
+
+[[battery.display]]
+threshold = 15
+style = "bold red"
+
+[kubernetes]
+format = '[$symbol\[$namespace\] $context](blue) '
+disabled = false
+
+[memory_usage]
+disabled = false
+threshold = 95
+format = '[RAM usage is high! \[$ram_pct\]](bold red)'
