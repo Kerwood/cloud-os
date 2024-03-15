@@ -21,6 +21,7 @@ modules:
       - install-trivy.sh
       - install-zellij.sh
       - setup-gcloud-repo.sh
+      - setup-hashicorp-repo.sh
 
   - type: rpm-ostree
     repos:
@@ -57,5 +58,6 @@ modules:
       - ncdu
       - ShellCheck
       - tailscale
+      - terraform
     remove:
       - nvtop

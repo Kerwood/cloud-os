@@ -147,6 +147,8 @@ accidentally updated to the next major version.
     - https://github.com/anchore/syft :: [screenshot](#syft)
   - **tailscale** - *Zero config VPN for building secure networks.*
     - https://tailscale.com/
+  - **terraform** - *Automate infrastructure on any cloud with Terraform*
+    - https://www.terraform.io/
   - **trivy** - *Comprehensive and versatile security scanner.*
     - https://github.com/aquasecurity/trivy
   - **zellij** - *Modern terminal multiplexer (like tmux).*
