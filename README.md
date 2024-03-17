@@ -2,12 +2,6 @@
 
 This image is currently based on `ublue-os/silverblue-main:39`.
 
-There are two images, `cloud-os-main` and `cloud-os-dotnet`.
-The `dotnet` image includes everything from the main image and below packages:
- - `dotnet-sdk-6.0`
- - `dotnet-sdk-7.0`
- - `dotnet-sdk-8.0`.
-
 # Table of contents
 - [Installation](#installation)
 - [GUI Tools](#gui-tools)
@@ -31,7 +25,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - First rebase to the unsigned image, to get the proper signing keys and
   policies installed.
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/kerwood/cloud-os-main:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/kerwood/cloud-os:latest
   ```
 - Reboot to complete the rebase.
   ```
@@ -39,7 +33,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image.
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kerwood/cloud-os-main:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kerwood/cloud-os:latest
   ```
 - Reboot again to complete the installation.
   ```
@@ -47,7 +41,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 
 The `latest` tag will automatically point to the latest build. That build will
-still always use the Fedora version specified in `main.yml`, so you won't get
+still always use the Fedora version specified in `recipe.yml`, so you won't get
 accidentally updated to the next major version.
 
 ## GUI Tools
@@ -167,7 +161,8 @@ https://nvchad.com/
 ![image](./images/nvchad.webp)
 
 ### Flameshot
-This image comes with Flameshot installed. Setup a keybinding to activate it.
+A keybinding (`Alt` + `p`) is already preconfigured with this image, so below information is only needed if you want to change it.
+
 As for the time of writing, if you are using Wayland (default) you will probably have some dbus permission issues as described [here](https://github.com/flameshot-org/flameshot/issues/3326),
 a workaround is to launch flameshot from a shell script which is included in the image.
 
@@ -176,6 +171,7 @@ tldr; If you are using Wayland, set this path in your keybinding: `/usr/flamesho
 ![image](./images/flameshot.png)
 
 ### Ulauncher
+A keybinding (`Ctrl` + `space`) is already preconfigured with this image, so below information is only needed if you want to change it.
 If you are using Ulauncher in Wayland you should set the keybinding manual as Ulauncher does not receive hotkey events when triggered from some windows (like terminal or OS Settings).
 
 ![image](./images/ulauncher-keybinding.png)
