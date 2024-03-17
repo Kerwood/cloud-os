@@ -1,0 +1,13 @@
+modules:
+  - type: rpm-ostree
+    install:
+      - binutils
+      - gcc
+      - gcc-c++
+      - g++
+      - glibc
+      - glibc-devel
+
+  - type: script
+    scripts:
+      - ld-symlink-workaround.sh

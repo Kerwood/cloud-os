@@ -1,0 +1,42 @@
+modules:
+  - type: script
+    scripts:
+      - setup-vscode-repo.sh
+      - setup-google-chrome-repo.sh
+      - install-jetbrains-toolbox.sh
+      - install-app-image-launcher.sh
+
+  - type: rpm-ostree
+    optfix:
+      - google
+    install:
+      - google-chrome-stable
+      - alacritty
+      - code
+      - wireshark
+      - ulauncher
+      - wmctrl # Ulauncher/Wayland dependency
+      - flameshot
+      - papirus-icon-theme
+      - gnome-extensions-app
+
+  - type: default-flatpaks
+    notify: true
+    system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      install:
+        - com.github.tchx84.Flatseal
+
+  - type: default-flatpaks
+    notify: true
+    system:
+     repo-url: https://nightly.gnome.org/gnome-nightly.flatpakrepo
+     repo-name: gnome-nightly
+     install:
+       - org.gnome.Ptyxis.Devel
+
+  - type: script
+    scripts:
+      - google-chrome-stable-symlink.sh

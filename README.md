@@ -59,9 +59,9 @@ accidentally updated to the next major version.
   - **Flameshot** - *Powerful, yet simple to use open-source screenshot software.*
     - https://flameshot.org
   - **JetBrains Toolbox** - *Manage your JetBrains IDEs the easy way.*
-    - https://www.jetbrains.com/toolbox-app :: [screenshot](#jetbrains-toolbox)
+    - https://www.jetbrains.com/toolbox-app
   - **Ulauncher** - *Application launcher for Linux.*
-    - https://ulauncher.io :: [screenshot](#ulauncher-1)
+    - https://ulauncher.io
   - **Visual Studio Code** - *Code editor.*
     - https://code.visualstudio.com
   - **Wireshark** - *Free and open-source packet analyzer.*
@@ -77,49 +77,49 @@ accidentally updated to the next major version.
   - **azure-cli** - *Azure Cloud commandline tool.*
     - https://learn.microsoft.com/en-us/cli/azure
   - **bat** - *Modern cat replacement.*
-    - https://github.com/sharkdp/bat :: [screenshot](#bat-1)
+    - https://github.com/sharkdp/bat
   - **btop** - *Resource monitor.*
-    - https://github.com/aristocratos/btop :: [screenshot](#btop)
+    - https://github.com/aristocratos/btop
   - **distrobox** - *Use any Linux distribution inside your terminal.*
     - https://distrobox.it
   - **dive** - *A tool for exploring a docker image and its layer contents.*
-    - https://github.com/wagoodman/dive :: [screenshot](#dive)
+    - https://github.com/wagoodman/dive
   - **docker** - *Container runtime.*
     - https://www.docker.com
   - **duf** - *Disk Usage/Free Utility.*
-    - https://github.com/muesli/duf :: [screenshot](#duf)
+    - https://github.com/muesli/duf
   - **eza** - *Modern ls replacement.*
-    - https://github.com/eza-community/eza :: [screenshot](#eza-1)
+    - https://github.com/eza-community/eza
   - **fzf** - *General-purpose command-line fuzzy finder.*
-    - https://github.com/junegunn/fzf :: [screenshot](#fzf)
+    - https://github.com/junegunn/fzf
   - **git** - *Version control system.*
     - https://git-scm.com
   - **google-cloud-cli** - *Google Cloud commandline tool.*
     - https://cloud.google.com/sdk/gcloud
   - **gum** - *A tool for glamorous shell scripts.*
-    - https://github.com/charmbracelet/gum :: [screenshot](#gum)
+    - https://github.com/charmbracelet/gum
   - **helm** - *Manage, template or install Helm packages.*
     - https://github.com/helm/helm
   - **httpie** - *Modern curl replacement.*
-    - https://httpie.io/cli :: [screenshot](#httpie)
+    - https://httpie.io/cli
   - **just** - *Command runner with improvements over "make".*
-    - https://github.com/casey/just :: [screenshot](#just)
+    - https://github.com/casey/just
   - **jq** - *Slice, filter, map and transform JSON data with ease.*
     - https://jqlang.github.io/jq
   - **k9s** - *Terminal UI to interact with your Kubernetes clusters.*
-    - https://github.com/derailed/K9s :: [screenshot](#k9s)
+    - https://github.com/derailed/K9s
   - **kind** - *A tool for running local Kubernetes clusters using Docker container “nodes”.*
-    - https://github.com/kubernetes-sigs/kind :: [screenshot](#kind)
+    - https://github.com/kubernetes-sigs/kind
   - **krew** - *Plugin manager for the kubectl command-line tool.*
     - https://github.com/kubernetes-sigs/krew
   - **kubectl** - *Tool for communicating with Kubernetes control plane*
     - https://kubernetes.io/docs/reference/kubectl
   - **kubectx/kubens** - *Switch between Kubenetes contexts or namespaces with ease.*
-    - https://github.com/ahmetb/kubectx :: [screenshot](#kubectxkubens)
+    - https://github.com/ahmetb/kubectx
   - **lazydocker** - *A simple terminal UI for both docker and docker-compose*
-    - https://github.com/jesseduffield/lazydocker :: [screenshot](#lazydocker)
+    - https://github.com/jesseduffield/lazydocker
   - **lazygit** - *A simple terminal UI for git commands.*
-    - https://github.com/jesseduffield/lazygit :: [screenshot](#lazygit-1)
+    - https://github.com/jesseduffield/lazygit
   - **mirrord** - *Run local processes in the context of their Kubernetes environment.*
     - https://github.com/metalbear-co/mirrord
   - **mkcert** - *Simple tool for making locally-trusted development certificates.*
@@ -130,21 +130,21 @@ accidentally updated to the next major version.
   - **paping** - *TCP port testing, emulating the functionality of ping (port ping)*
     - https://code.google.com/archive/p/paping/
   - **ripgrep** - *Alternative grep replacement.*
-    - https://github.com/BurntSushi/ripgrep :: [screenshot](#ripgrep-rg)
+    - https://github.com/BurntSushi/ripgrep
   - **ShellCheck** - *A static analysis tool for shell scripts.*
     - https://www.shellcheck.net/
   - **sshs** - *Terminal user interface for SSH which uses `~/.ssh/config` to list and connect to hosts.*
-    - https://github.com/quantumsheep/sshs :: [screenshot](#sshs)
+    - https://github.com/quantumsheep/sshs
   - **sslscan** - *Queries SSL services in order to determine the ciphers that are supported.*
     - https://github.com/rbsec/sslscan
   - **starship** - *The minimal, blazing-fast, and infinitely customizable prompt for any shell.*
-    - https://github.com/starship/starship :: [screenshot](#starship-1)
+    - https://github.com/starship/starship
   - **stern** - *Tail multiple pods on Kubernetes and multiple containers within the pod.*
     - https://github.com/stern/stern
   - **stow** - *Symlink farm manager.*
     - https://www.gnu.org/software/stow/manual/stow.html
   - **syft** - *Generate Software Bill of Materials (SBOM) from container images and filesystems.*
-    - https://github.com/anchore/syft :: [screenshot](#syft)
+    - https://github.com/anchore/syft
   - **tailscale** - *Zero config VPN for building secure networks.*
     - https://tailscale.com/
   - **terraform** - *Automate infrastructure on any cloud with Terraform*
@@ -152,9 +152,9 @@ accidentally updated to the next major version.
   - **trivy** - *Comprehensive and versatile security scanner.*
     - https://github.com/aquasecurity/trivy
   - **zellij** - *Modern terminal multiplexer (like tmux).*
-    - https://github.com/zellij-org/zellij :: [screenshot](#zellij-1)
+    - https://github.com/zellij-org/zellij
   - **zoxide** - *Smarter cd command, inspired by z and autojump.*
-    - https://github.com/ajeetdsouza/zoxide :: [screenshot](#zoxide)
+    - https://github.com/ajeetdsouza/zoxide
   - **zsh** - *A superior shell for your terminal needs. Unlock super powers by setting up Oh-my-zsh.*
 
 ## Tips
@@ -227,75 +227,3 @@ A base configuration for zellij can be found at `/usr/dotfiles/zellij`.
 ```
 cp -a /usr/dotfiles/zellij ~/.config
 ```
-
-## Screenshots
-
-### Jetbrains Toolbox
-![image](./images/toolbox.webp)
-
-### Ulauncher
-![image](./images/ulauncher.gif)
-
-### Dive
-![image](./images/dive.gif)
-
-### k9s
-![image](./images/k9s.png)
-
-### kind
-![image](./images/kind.png)
-
-### kubectx/kubens
-![image](./images/kubectx.gif)
-![image](./images/kubens.gif)
-
-### lazydocker
-![image](./images/lazydocker.gif)
-
-### syft
-![image](./images/syft.gif)
-
-### zellij
-![image](./images/zellij.gif)
-
-### starship
-![image](./images/starship.gif)
-
-### sshs
-![image](./images/sshs.gif)
-
-### gum
-![image](./images/gum.gif)
-
-### httpie
-![image](./images/httpie.png)
-
-### ripgrep (rg)
-![image](./images/ripgrep.png)
-
-### eza
-![image](./images/eza.png)
-
-### bat
-![image](./images/bat.png)
-
-### just
-![image](./images/just.png)
-
-### lazygit
-![image](./images/lazygit.gif)
-
-### fzf
-![image](./images/fzf.png)
-
-### btop
-![image](./images/btop.png)
-
-### zoxide
-![image](./images/zoxide.webp)
-
-### duf
-![image](./images/duf.png)
-
-### ncdu
-![image](./images/ncdu.png)
