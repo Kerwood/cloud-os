@@ -58,5 +58,6 @@ modules:
       - ShellCheck
       - tailscale
       - terraform
+      - fuse-sshfs
     remove:
       - nvtop

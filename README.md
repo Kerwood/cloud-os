@@ -127,6 +127,8 @@ accidentally updated to the next major version.
     - https://github.com/BurntSushi/ripgrep
   - **ShellCheck** - *A static analysis tool for shell scripts.*
     - https://www.shellcheck.net/
+  - **sshfs** - *SSHFS allows you to mount a remote filesystem using SFTP*
+    - https://linux.die.net/man/1/sshfs
   - **sshs** - *Terminal user interface for SSH which uses `~/.ssh/config` to list and connect to hosts.*
     - https://github.com/quantumsheep/sshs
   - **sslscan** - *Queries SSL services in order to determine the ciphers that are supported.*
