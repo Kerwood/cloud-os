@@ -1,0 +1,15 @@
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+name='Toggle ULauncher'
+binding='<Alt>space'
+command='ulauncher-toggle'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+name='Terminal'
+binding='<Alt>Return'
+command='alacritty'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+name='Flameshot'
+binding='<Alt>p'
+command='/usr/flameshot/flameshot-gui-workaround.sh'
+
