@@ -1,0 +1,9 @@
+[Unit]
+Description=Make flatpaks use GTK theme
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/flatpak override --filesystem=xdg-data/themes
+
+[Install]
+WantedBy=multi-user.target
