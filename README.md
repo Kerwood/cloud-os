@@ -50,10 +50,14 @@ accidentally updated to the next major version.
     - https://github.com/alacritty/alacritty
   - **AppImageLauncher** - *Integrate AppImages into your application launcher with one click*
     - https://github.com/TheAssassin/AppImageLauncher
+  - **Discord** - *An instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media and files.*
+    - https://discord.com/
   - **Flameshot** - *Powerful, yet simple to use open-source screenshot software.*
     - https://flameshot.org
   - **JetBrains Toolbox** - *Manage your JetBrains IDEs the easy way.*
     - https://www.jetbrains.com/toolbox-app
+  - **Spotify** - *A digital music service that gives you access to millions of songs.*
+    - https://spotify.com
   - **Ulauncher** - *Application launcher for Linux.*
     - https://ulauncher.io
   - **Visual Studio Code** - *Code editor.*
@@ -62,8 +66,6 @@ accidentally updated to the next major version.
     - https://www.wireshark.org
   - **Papirus Icon Theme** - *Free and open source SVG icon theme for Linux*
     - https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
-  - **Ptyxis** - *Ptyxis is a terminal for GNOME with first-class support for containers.*
-    - https://gitlab.gnome.org/chergert/ptyxis
 
 ## CLI Tools
   - **argocd-cli** - *CLI Tool for managing ArgoCD.*
