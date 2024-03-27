@@ -2,7 +2,7 @@
 
 # SCRIPT VERSION
 GROUP_SETUP_VER=1
-GROUP_SETUP_VER_FILE="/etc/cloud-os/default-groups"
+GROUP_SETUP_VER_FILE="/etc/custom-image/default-groups"
 GROUP_SETUP_VER_RAN=$(cat "$GROUP_SETUP_VER_FILE")
 
 # Run script if updated

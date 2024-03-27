@@ -26,6 +26,8 @@ modules:
   - type: systemd
     system:
       enabled:
-        - cloud-os-groups.service
+        - default-groups.service
+        - dconf-update.service
+        - flatpak-theme.service
 
   - type: signing
