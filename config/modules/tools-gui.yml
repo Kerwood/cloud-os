@@ -28,6 +28,8 @@ modules:
       repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - com.github.tchx84.Flatseal
+        - com.spotify.Client
+        - com.discordapp.Discord
 
   - type: default-flatpaks
     notify: true
