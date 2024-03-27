@@ -14,10 +14,10 @@ modules:
       - usr: /usr
       - etc: /etc
 
-  - from-file: module-tools-cli.yml
-  - from-file: module-tools-gui.yml
-  - from-file: module-build-tools.yml
-  - from-file: module-fonts.yml
+  - from-file: modules/tools-cli.yml
+  - from-file: modules/tools-gui.yml
+  - from-file: modules/build-tools.yml
+  - from-file: modules/fonts.yml
 
   - type: gschema-overrides
     include:
