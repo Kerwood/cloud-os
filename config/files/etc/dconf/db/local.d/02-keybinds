@@ -1,6 +1,6 @@
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 name='Toggle ULauncher'
-binding='<Alt>space'
+binding='<Control>space'
 command='ulauncher-toggle'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
