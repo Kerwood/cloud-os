@@ -9,6 +9,7 @@ modules:
       - glibc-devel
       - openssl
       - openssl-devel
+      - libpcap-devel
 
   - type: script
     scripts:
