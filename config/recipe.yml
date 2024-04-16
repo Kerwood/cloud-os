@@ -3,7 +3,7 @@ name: cloud-os
 description: Fedora Silverblue image with a bunch of cloud native tools.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: quay.io/fedora-ostree-desktops/silverblue
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
