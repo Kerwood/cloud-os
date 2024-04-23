@@ -80,6 +80,8 @@ accidentally updated to the next major version.
   - https://learn.microsoft.com/en-us/cli/azure
 - **bat** - _Modern cat replacement._
   - https://github.com/sharkdp/bat
+- **bombardier** - _HTTP(S) benchmarking tool._
+  - https://github.com/codesenberg/bombardier
 - **btop** - _Resource monitor._
   - https://github.com/aristocratos/btop
 - **distrobox** - _Use any Linux distribution inside your terminal._
