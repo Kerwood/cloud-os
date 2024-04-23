@@ -3,6 +3,7 @@ modules:
     scripts:
       - install-argocd-cli.sh
       - install-atuin.sh
+      - install-bombardier.sh
       - install-dive.sh
       - install-gum.sh
       - install-k9s.sh
