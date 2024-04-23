@@ -3,6 +3,7 @@
 This image is currently based on `ublue-os/silverblue-main:39`.
 
 # Table of contents
+
 - [Installation](#installation)
 - [GUI Tools](#gui-tools)
 - [CLI Tools](#cli-tools)
@@ -46,144 +47,175 @@ accidentally updated to the next major version.
 
 ## GUI Tools
 
-  - **Alacritty** - *A fast, cross-platform, OpenGL terminal emulator.*
-    - https://github.com/alacritty/alacritty
-  - **AppImageLauncher** - *Integrate AppImages into your application launcher with one click*
-    - https://github.com/TheAssassin/AppImageLauncher
-  - **Discord** - *An instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media and files.*
-    - https://discord.com/
-  - **Flameshot** - *Powerful, yet simple to use open-source screenshot software.*
-    - https://flameshot.org
-  - **JetBrains Toolbox** - *Manage your JetBrains IDEs the easy way.*
-    - https://www.jetbrains.com/toolbox-app
-  - **Spotify** - *A digital music service that gives you access to millions of songs.*
-    - https://spotify.com
-  - **Ulauncher** - *Application launcher for Linux.*
-    - https://ulauncher.io
-  - **Visual Studio Code** - *Code editor.*
-    - https://code.visualstudio.com
-  - **Wireshark** - *Free and open-source packet analyzer.*
-    - https://www.wireshark.org
-  - **Papirus Icon Theme** - *Free and open source SVG icon theme for Linux*
-    - https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+- **Alacritty** - _A fast, cross-platform, OpenGL terminal emulator._
+  - https://github.com/alacritty/alacritty
+- **AppImageLauncher** - _Integrate AppImages into your application launcher
+  with one click_
+  - https://github.com/TheAssassin/AppImageLauncher
+- **Discord** - _An instant messaging and VoIP social platform which allows
+  communication through voice calls, video calls, text messaging, and media and
+  files._
+  - https://discord.com/
+- **Flameshot** - _Powerful, yet simple to use open-source screenshot software._
+  - https://flameshot.org
+- **JetBrains Toolbox** - _Manage your JetBrains IDEs the easy way._
+  - https://www.jetbrains.com/toolbox-app
+- **Spotify** - _A digital music service that gives you access to millions of
+  songs._
+  - https://spotify.com
+- **Ulauncher** - _Application launcher for Linux._
+  - https://ulauncher.io
+- **Visual Studio Code** - _Code editor._
+  - https://code.visualstudio.com
+- **Wireshark** - _Free and open-source packet analyzer._
+  - https://www.wireshark.org
+- **Papirus Icon Theme** - _Free and open source SVG icon theme for Linux_
+  - https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
 ## CLI Tools
-  - **argocd-cli** - *CLI Tool for managing ArgoCD.*
-    - https://argo-cd.readthedocs.io/en/stable/cli_installation
-  - **azure-cli** - *Azure Cloud commandline tool.*
-    - https://learn.microsoft.com/en-us/cli/azure
-  - **bat** - *Modern cat replacement.*
-    - https://github.com/sharkdp/bat
-  - **btop** - *Resource monitor.*
-    - https://github.com/aristocratos/btop
-  - **distrobox** - *Use any Linux distribution inside your terminal.*
-    - https://distrobox.it
-  - **dive** - *A tool for exploring a docker image and its layer contents.*
-    - https://github.com/wagoodman/dive
-  - **docker** - *Container runtime.*
-    - https://www.docker.com
-  - **duf** - *Disk Usage/Free Utility.*
-    - https://github.com/muesli/duf
-  - **eza** - *Modern ls replacement.*
-    - https://github.com/eza-community/eza
-  - **fzf** - *General-purpose command-line fuzzy finder.*
-    - https://github.com/junegunn/fzf
-  - **git** - *Version control system.*
-    - https://git-scm.com
-  - **google-cloud-cli** - *Google Cloud commandline tool.*
-    - https://cloud.google.com/sdk/gcloud
-  - **gum** - *A tool for glamorous shell scripts.*
-    - https://github.com/charmbracelet/gum
-  - **helm** - *Manage, template or install Helm packages.*
-    - https://github.com/helm/helm
-  - **httpie** - *Modern curl replacement.*
-    - https://httpie.io/cli
-  - **just** - *Command runner with improvements over "make".*
-    - https://github.com/casey/just
-  - **jq** - *Slice, filter, map and transform JSON data with ease.*
-    - https://jqlang.github.io/jq
-  - **k9s** - *Terminal UI to interact with your Kubernetes clusters.*
-    - https://github.com/derailed/K9s
-  - **kind** - *A tool for running local Kubernetes clusters using Docker container “nodes”.*
-    - https://github.com/kubernetes-sigs/kind
-  - **krew** - *Plugin manager for the kubectl command-line tool.*
-    - https://github.com/kubernetes-sigs/krew
-  - **kubectl** - *Tool for communicating with Kubernetes control plane*
-    - https://kubernetes.io/docs/reference/kubectl
-  - **kubectx/kubens** - *Switch between Kubenetes contexts or namespaces with ease.*
-    - https://github.com/ahmetb/kubectx
-  - **lazydocker** - *A simple terminal UI for both docker and docker-compose*
-    - https://github.com/jesseduffield/lazydocker
-  - **lazygit** - *A simple terminal UI for git commands.*
-    - https://github.com/jesseduffield/lazygit
-  - **mirrord** - *Run local processes in the context of their Kubernetes environment.*
-    - https://github.com/metalbear-co/mirrord
-  - **mkcert** - *Simple tool for making locally-trusted development certificates.*
-    - https://github.com/FiloSottile/mkcert
-  - **neovim** - *Terminal based code editor.*
-    - https://neovim.io
-  - **ncdu** - *Review files and the disk space being used on Linux systems.*
-  - **paping** - *TCP port testing, emulating the functionality of ping (port ping)*
-    - https://code.google.com/archive/p/paping/
-  - **ripgrep** - *Alternative grep replacement.*
-    - https://github.com/BurntSushi/ripgrep
-  - **ShellCheck** - *A static analysis tool for shell scripts.*
-    - https://www.shellcheck.net/
-  - **sshfs** - *SSHFS allows you to mount a remote filesystem using SFTP*
-    - https://linux.die.net/man/1/sshfs
-  - **sshs** - *Terminal user interface for SSH which uses `~/.ssh/config` to list and connect to hosts.*
-    - https://github.com/quantumsheep/sshs
-  - **sslscan** - *Queries SSL services in order to determine the ciphers that are supported.*
-    - https://github.com/rbsec/sslscan
-  - **starship** - *The minimal, blazing-fast, and infinitely customizable prompt for any shell.*
-    - https://github.com/starship/starship
-  - **stern** - *Tail multiple pods on Kubernetes and multiple containers within the pod.*
-    - https://github.com/stern/stern
-  - **stow** - *Symlink farm manager.*
-    - https://www.gnu.org/software/stow/manual/stow.html
-  - **syft** - *Generate Software Bill of Materials (SBOM) from container images and filesystems.*
-    - https://github.com/anchore/syft
-  - **tailscale** - *Zero config VPN for building secure networks.*
-    - https://tailscale.com/
-  - **terraform** - *Automate infrastructure on any cloud with Terraform*
-    - https://www.terraform.io/
-  - **trivy** - *Comprehensive and versatile security scanner.*
-    - https://github.com/aquasecurity/trivy
-  - **zellij** - *Modern terminal multiplexer (like tmux).*
-    - https://github.com/zellij-org/zellij
-  - **zoxide** - *Smarter cd command, inspired by z and autojump.*
-    - https://github.com/ajeetdsouza/zoxide
-  - **zsh** - *A superior shell for your terminal needs. Unlock super powers by setting up Oh-my-zsh.*
+
+- **argocd-cli** - _CLI Tool for managing ArgoCD._
+  - https://argo-cd.readthedocs.io/en/stable/cli_installation
+- **azure-cli** - _Azure Cloud commandline tool._
+  - https://learn.microsoft.com/en-us/cli/azure
+- **bat** - _Modern cat replacement._
+  - https://github.com/sharkdp/bat
+- **btop** - _Resource monitor._
+  - https://github.com/aristocratos/btop
+- **distrobox** - _Use any Linux distribution inside your terminal._
+  - https://distrobox.it
+- **dive** - _A tool for exploring a docker image and its layer contents._
+  - https://github.com/wagoodman/dive
+- **docker** - _Container runtime._
+  - https://www.docker.com
+- **duf** - _Disk Usage/Free Utility._
+  - https://github.com/muesli/duf
+- **eza** - _Modern ls replacement._
+  - https://github.com/eza-community/eza
+- **fzf** - _General-purpose command-line fuzzy finder._
+  - https://github.com/junegunn/fzf
+- **git** - _Version control system._
+  - https://git-scm.com
+- **google-cloud-cli** - _Google Cloud commandline tool._
+  - https://cloud.google.com/sdk/gcloud
+- **gum** - _A tool for glamorous shell scripts._
+  - https://github.com/charmbracelet/gum
+- **helm** - _Manage, template or install Helm packages._
+  - https://github.com/helm/helm
+- **httpie** - _Modern curl replacement._
+  - https://httpie.io/cli
+- **just** - _Command runner with improvements over "make"._
+  - https://github.com/casey/just
+- **jq** - _Slice, filter, map and transform JSON data with ease._
+  - https://jqlang.github.io/jq
+- **k9s** - _Terminal UI to interact with your Kubernetes clusters._
+  - https://github.com/derailed/K9s
+- **kind** - _A tool for running local Kubernetes clusters using Docker
+  container “nodes”._
+  - https://github.com/kubernetes-sigs/kind
+- **krew** - _Plugin manager for the kubectl command-line tool._
+  - https://github.com/kubernetes-sigs/krew
+- **kubectl** - _Tool for communicating with Kubernetes control plane_
+  - https://kubernetes.io/docs/reference/kubectl
+- **kubectx/kubens** - _Switch between Kubenetes contexts or namespaces with
+  ease._
+  - https://github.com/ahmetb/kubectx
+- **lazydocker** - _A simple terminal UI for both docker and docker-compose_
+  - https://github.com/jesseduffield/lazydocker
+- **lazygit** - _A simple terminal UI for git commands._
+  - https://github.com/jesseduffield/lazygit
+- **mirrord** - _Run local processes in the context of their Kubernetes
+  environment._
+  - https://github.com/metalbear-co/mirrord
+- **mkcert** - _Simple tool for making locally-trusted development
+  certificates._
+  - https://github.com/FiloSottile/mkcert
+- **neovim** - _Terminal based code editor._
+  - https://neovim.io
+- **ncdu** - _Review files and the disk space being used on Linux systems._
+- **paping** - _TCP port testing, emulating the functionality of ping (port
+  ping)_
+  - https://code.google.com/archive/p/paping/
+- **ripgrep** - _Alternative grep replacement._
+  - https://github.com/BurntSushi/ripgrep
+- **ShellCheck** - _A static analysis tool for shell scripts._
+  - https://www.shellcheck.net/
+- **sshfs** - _SSHFS allows you to mount a remote filesystem using SFTP_
+  - https://linux.die.net/man/1/sshfs
+- **sshs** - _Terminal user interface for SSH which uses `~/.ssh/config` to list
+  and connect to hosts._
+  - https://github.com/quantumsheep/sshs
+- **sslscan** - _Queries SSL services in order to determine the ciphers that are
+  supported._
+  - https://github.com/rbsec/sslscan
+- **starship** - _The minimal, blazing-fast, and infinitely customizable prompt
+  for any shell._
+  - https://github.com/starship/starship
+- **stern** - _Tail multiple pods on Kubernetes and multiple containers within
+  the pod._
+  - https://github.com/stern/stern
+- **stow** - _Symlink farm manager._
+  - https://www.gnu.org/software/stow/manual/stow.html
+- **syft** - _Generate Software Bill of Materials (SBOM) from container images
+  and filesystems._
+  - https://github.com/anchore/syft
+- **tailscale** - _Zero config VPN for building secure networks._
+  - https://tailscale.com/
+- **terraform** - _Automate infrastructure on any cloud with Terraform_
+  - https://www.terraform.io/
+- **trivy** - _Comprehensive and versatile security scanner._
+  - https://github.com/aquasecurity/trivy
+- **zellij** - _Modern terminal multiplexer (like tmux)._
+  - https://github.com/zellij-org/zellij
+- **zoxide** - _Smarter cd command, inspired by z and autojump._
+  - https://github.com/ajeetdsouza/zoxide
+- **zsh** - _A superior shell for your terminal needs. Unlock super powers by
+  setting up Oh-my-zsh._
 
 ## Tips
 
 ### Neovim
-This image comes with barebone `neovim`. To unlock it's full potential install NVChad. It is very easy to install, stable and comes prepacked with a handful of usefull plugins.
+
+This image comes with barebone `neovim`. To unlock it's full potential install
+NVChad. It is very easy to install, stable and comes prepacked with a handful of
+usefull plugins.
 
 https://nvchad.com/
 
 ![image](./images/nvchad.webp)
 
 ### Flameshot
-A keybinding (`Alt` + `p`) is already preconfigured with this image, so below information is only needed if you want to change it.
 
-As for the time of writing, if you are using Wayland (default) you will probably have some dbus permission issues as described [here](https://github.com/flameshot-org/flameshot/issues/3326),
-a workaround is to launch flameshot from a shell script which is included in the image.
+A keybinding (`Alt` + `p`) is already preconfigured with this image, so below
+information is only needed if you want to change it.
 
-tldr; If you are using Wayland, set this path in your keybinding: `/usr/flameshot/flameshot.sh`
+As for the time of writing, if you are using Wayland (default) you will probably
+have some dbus permission issues as described
+[here](https://github.com/flameshot-org/flameshot/issues/3326), a workaround is
+to launch flameshot from a shell script which is included in the image.
+
+tldr; If you are using Wayland, set this path in your keybinding:
+`/usr/flameshot/flameshot.sh`
 
 ![image](./images/flameshot.png)
 
 ### Ulauncher
-A keybinding (`Ctrl` + `space`) is already preconfigured with this image, so below information is only needed if you want to change it.
-If you are using Ulauncher in Wayland you should set the keybinding manual as Ulauncher does not receive hotkey events when triggered from some windows (like terminal or OS Settings).
+
+A keybinding (`Ctrl` + `space`) is already preconfigured with this image, so
+below information is only needed if you want to change it. If you are using
+Ulauncher in Wayland you should set the keybinding manual as Ulauncher does not
+receive hotkey events when triggered from some windows (like terminal or OS
+Settings).
 
 ![image](./images/ulauncher-keybinding.png)
 
 ### Oh My Zsh
-This images comes with the `zsh`. To unlock it's full potential setup Oh My Zsh, its very easy.
+
+This images comes with the `zsh`. To unlock it's full potential setup Oh My Zsh,
+its very easy.
 
 Change your default shell to `zsh`.
+
 ```
 chsh -s /usr/bin/zsh <user-name>
 ```
@@ -191,7 +223,10 @@ chsh -s /usr/bin/zsh <user-name>
 Go to https://ohmyz.sh/#install and install it with one command.
 
 ### eza
-`eza` is a dropin `ls` replacement. Here's a few aliases you can use to replace `ls`.
+
+`eza` is a dropin `ls` replacement. Here's a few aliases you can use to replace
+`ls`.
+
 ```
 alias ls="eza"
 alias ll="eza --icons --git --header --group-directories-first -l"
@@ -199,31 +234,43 @@ alias l="eza --icons --git --header --group-directories-first -l"
 ```
 
 ### bat
-`bat` is a dropin replacement for `cat`. Here's an alias that replaces `cat`, but without line numbers. This way you get `cat` with syntax highlighting and git support.
+
+`bat` is a dropin replacement for `cat`. Here's an alias that replaces `cat`,
+but without line numbers. This way you get `cat` with syntax highlighting and
+git support.
+
 ```
 alias cat='bat -p'
 ```
 
 ### starship
+
 A base configuration for starship can be found at `/usr/dotfiles/starship.toml`.
+
 ```
 cp /usr/dotfiles/starship.toml ~/.config
 ```
 
 ### Alacritty
+
 A base configuration for alacritty can be found at `/usr/dotfiles/alacritty`.
+
 ```
 cp -a /usr/dotfiles/alacritty ~/.config
 ```
 
 ### lazygit
+
 A base configuration for lazygit can be found at `/usr/dotfiles/lazygit`.
+
 ```
 cp -a /usr/dotfiles/lazygit ~/.config
 ```
 
 ### zellij
+
 A base configuration for zellij can be found at `/usr/dotfiles/zellij`.
+
 ```
 cp -a /usr/dotfiles/zellij ~/.config
 ```
