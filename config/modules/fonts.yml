@@ -12,3 +12,4 @@ modules:
       google-fonts:
         - Roboto
         - Open Sans
+        - Noto Color Emoji
