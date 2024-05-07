@@ -29,5 +29,6 @@ modules:
         - default-groups.service
         - dconf-update.service
         - flatpak-theme.service
+        - docker.service
 
   - type: signing
