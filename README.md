@@ -84,6 +84,9 @@ accidentally updated to the next major version.
   - https://github.com/codesenberg/bombardier
 - **btop** - _Resource monitor._
   - https://github.com/aristocratos/btop
+- **caddy** - _Caddy is an extensible web server platform that uses TLS by
+  default._
+  - https://github.com/caddyserver/caddy
 - **distrobox** - _Use any Linux distribution inside your terminal._
   - https://distrobox.it
 - **dive** - _A tool for exploring a docker image and its layer contents._
@@ -165,6 +168,8 @@ accidentally updated to the next major version.
   - https://tailscale.com/
 - **terraform** - _Automate infrastructure on any cloud with Terraform_
   - https://www.terraform.io/
+- **tlrc** - _A tldr client written in Rust_
+  - https://github.com/tldr-pages/tlrc
 - **trivy** - _Comprehensive and versatile security scanner._
   - https://github.com/aquasecurity/trivy
 - **zellij** - _Modern terminal multiplexer (like tmux)._
