@@ -7,4 +7,4 @@ FILENAME=caddy_${VERSION}_linux_amd64.tar.gz
 
 curl -OL "https://github.com/caddyserver/caddy/releases/download/v${VERSION}/${FILENAME}"
 tar -zxvf "$FILENAME"
-mv -v "caddy_${VERSION}_linux_amd64/caddy" /usr/bin
+mv -v caddy /usr/bin
