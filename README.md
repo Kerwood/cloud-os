@@ -101,6 +101,8 @@ accidentally updated to the next major version.
   - https://github.com/junegunn/fzf
 - **git** - _Version control system._
   - https://git-scm.com
+- **git-delta** - _A syntax-highlighting pager for git, diff, and grep output._
+  - https://github.com/dandavison/delta
 - **google-cloud-cli** - _Google Cloud commandline tool._
   - https://cloud.google.com/sdk/gcloud
 - **gum** - _A tool for glamorous shell scripts._

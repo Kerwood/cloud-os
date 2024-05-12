@@ -4,6 +4,7 @@ modules:
       - install-argocd-cli.sh
       - install-atuin.sh
       - install-bombardier.sh
+      - install-caddy.sh
       - install-dive.sh
       - install-gum.sh
       - install-k9s.sh
@@ -18,6 +19,7 @@ modules:
       - install-sshs.sh
       - install-stern.sh
       - install-syft.sh
+      - install-tlrc.sh
       - install-trivy.sh
       - install-zellij.sh
       - setup-gcloud-repo.sh
