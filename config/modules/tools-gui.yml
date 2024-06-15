@@ -19,6 +19,11 @@ modules:
       - flameshot
       - papirus-icon-theme
       - gnome-extensions-app
+      - gnome-calculator
+      - loupe # Image Viewer
+      - evince # Document Viewer
+      - sushi # Quick previewer for Nautilus
+      - snapshot
 
   - type: default-flatpaks
     notify: true
