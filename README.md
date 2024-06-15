@@ -134,9 +134,6 @@ accidentally updated to the next major version.
 - **mirrord** - _Run local processes in the context of their Kubernetes
   environment._
   - https://github.com/metalbear-co/mirrord
-- **mkcert** - _Simple tool for making locally-trusted development
-  certificates._
-  - https://github.com/FiloSottile/mkcert
 - **neovim** - _Terminal based code editor._
   - https://neovim.io
 - **ncdu** - _Review files and the disk space being used on Linux systems._
