@@ -11,8 +11,8 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - usr: /usr
-      - etc: /etc
+      - source: system
+        destination: /
 
   - from-file: modules/tools-cli.yml
   - from-file: modules/tools-gui.yml
