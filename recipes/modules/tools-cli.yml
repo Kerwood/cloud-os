@@ -67,5 +67,6 @@ modules:
       - terraform
       - fuse-sshfs
       - git-delta
+      - screen
     remove:
       - nvtop
