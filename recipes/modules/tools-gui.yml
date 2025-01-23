@@ -4,7 +4,7 @@ modules:
       - setup-vscode-repo.sh
       - setup-google-chrome-repo.sh
       - install-jetbrains-toolbox.sh
-      - install-app-image-launcher.sh
+      #- install-app-image-launcher.sh
 
   - type: rpm-ostree
     optfix:
