@@ -68,5 +68,7 @@ modules:
       - fuse-sshfs
       - git-delta
       - screen
+      - golang
+      - dua-cli
     remove:
       - nvtop
