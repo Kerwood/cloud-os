@@ -71,5 +71,6 @@ modules:
       - screen
       - golang
       - dua-cli
+      - gh
     remove:
       - nvtop
