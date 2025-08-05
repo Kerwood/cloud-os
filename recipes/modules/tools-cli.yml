@@ -16,6 +16,7 @@ modules:
       - install-kubens.sh
       - install-mirrord.sh
       - install-paping.sh
+      - install-scooter.sh
       - install-sshs.sh
       - install-stern.sh
       - install-syft.sh
