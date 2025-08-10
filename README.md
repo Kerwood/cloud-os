@@ -49,19 +49,13 @@ accidentally updated to the next major version.
 
 - **Alacritty** - _A fast, cross-platform, OpenGL terminal emulator._
   - https://github.com/alacritty/alacritty
-- **AppImageLauncher** - _Integrate AppImages into your application launcher
-  with one click_
+- **AppImageLauncher** - _Integrate AppImages into your application launcher with one click_
   - https://github.com/TheAssassin/AppImageLauncher
-- **Discord** - _An instant messaging and VoIP social platform which allows
-  communication through voice calls, video calls, text messaging, and media and
-  files._
+- **Discord** - _An instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media and files._
   - https://discord.com/
 - **Flameshot** - _Powerful, yet simple to use open-source screenshot software._
   - https://flameshot.org
-- **JetBrains Toolbox** - _Manage your JetBrains IDEs the easy way._
-  - https://www.jetbrains.com/toolbox-app
-- **Spotify** - _A digital music service that gives you access to millions of
-  songs._
+- **Spotify** - _A digital music service that gives you access to millions of songs._
   - https://spotify.com
 - **Ulauncher** - _Application launcher for Linux._
   - https://ulauncher.io
@@ -84,8 +78,7 @@ accidentally updated to the next major version.
   - https://github.com/codesenberg/bombardier
 - **btop** - _Resource monitor._
   - https://github.com/aristocratos/btop
-- **caddy** - _Caddy is an extensible web server platform that uses TLS by
-  default._
+- **caddy** - _Caddy is an extensible web server platform that uses TLS by default._
   - https://github.com/caddyserver/caddy
 - **distrobox** - _Use any Linux distribution inside your terminal._
   - https://distrobox.it
@@ -117,28 +110,24 @@ accidentally updated to the next major version.
   - https://jqlang.github.io/jq
 - **k9s** - _Terminal UI to interact with your Kubernetes clusters._
   - https://github.com/derailed/K9s
-- **kind** - _A tool for running local Kubernetes clusters using Docker
-  container “nodes”._
+- **kind** - _A tool for running local Kubernetes clusters using Docker container “nodes”._
   - https://github.com/kubernetes-sigs/kind
 - **krew** - _Plugin manager for the kubectl command-line tool._
   - https://github.com/kubernetes-sigs/krew
 - **kubectl** - _Tool for communicating with Kubernetes control plane_
   - https://kubernetes.io/docs/reference/kubectl
-- **kubectx/kubens** - _Switch between Kubenetes contexts or namespaces with
-  ease._
+- **kubectx/kubens** - _Switch between Kubenetes contexts or namespaces with ease._
   - https://github.com/ahmetb/kubectx
 - **lazydocker** - _A simple terminal UI for both docker and docker-compose_
   - https://github.com/jesseduffield/lazydocker
 - **lazygit** - _A simple terminal UI for git commands._
   - https://github.com/jesseduffield/lazygit
-- **mirrord** - _Run local processes in the context of their Kubernetes
-  environment._
+- **mirrord** - _Run local processes in the context of their Kubernetes environment._
   - https://github.com/metalbear-co/mirrord
 - **neovim** - _Terminal based code editor._
   - https://neovim.io
 - **ncdu** - _Review files and the disk space being used on Linux systems._
-- **paping** - _TCP port testing, emulating the functionality of ping (port
-  ping)_
+- **paping** - _TCP port testing, emulating the functionality of ping (port ping)_
   - https://code.google.com/archive/p/paping/
 - **ripgrep** - _Alternative grep replacement._
   - https://github.com/BurntSushi/ripgrep
@@ -146,22 +135,17 @@ accidentally updated to the next major version.
   - https://www.shellcheck.net/
 - **sshfs** - _SSHFS allows you to mount a remote filesystem using SFTP_
   - https://linux.die.net/man/1/sshfs
-- **sshs** - _Terminal user interface for SSH which uses `~/.ssh/config` to list
-  and connect to hosts._
+- **sshs** - _Terminal user interface for SSH which uses `~/.ssh/config` to list and connect to hosts._
   - https://github.com/quantumsheep/sshs
-- **sslscan** - _Queries SSL services in order to determine the ciphers that are
-  supported._
+- **sslscan** - _Queries SSL services in order to determine the ciphers that are supported._
   - https://github.com/rbsec/sslscan
-- **starship** - _The minimal, blazing-fast, and infinitely customizable prompt
-  for any shell._
+- **starship** - _The minimal, blazing-fast, and infinitely customizable prompt for any shell._
   - https://github.com/starship/starship
-- **stern** - _Tail multiple pods on Kubernetes and multiple containers within
-  the pod._
+- **stern** - _Tail multiple pods on Kubernetes and multiple containers within the pod._
   - https://github.com/stern/stern
 - **stow** - _Symlink farm manager._
   - https://www.gnu.org/software/stow/manual/stow.html
-- **syft** - _Generate Software Bill of Materials (SBOM) from container images
-  and filesystems._
+- **syft** - _Generate Software Bill of Materials (SBOM) from container images and filesystems._
   - https://github.com/anchore/syft
 - **tailscale** - _Zero config VPN for building secure networks._
   - https://tailscale.com/
