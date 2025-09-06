@@ -6,6 +6,7 @@ modules:
       - install-bombardier.sh
       - install-caddy.sh
       - install-dive.sh
+      - install-doctl.sh
       - install-eza.sh
       - install-gum.sh
       - install-k9s.sh
