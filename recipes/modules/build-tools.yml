@@ -11,6 +11,7 @@ modules:
       - openssl-devel
       - libpcap-devel
       - xz-libs
+      - java-21-openjdk-devel
 
   - type: script
     scripts:
