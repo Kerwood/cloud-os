@@ -7,6 +7,8 @@ modules:
       #- install-app-image-launcher.sh
 
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
     optfix:
       - google
     install:
@@ -24,6 +26,7 @@ modules:
       - evince # Document Viewer
       - sushi # Quick previewer for Nautilus
       - snapshot
+      - cosmic-desktop
 
   - type: default-flatpaks
     configurations:
