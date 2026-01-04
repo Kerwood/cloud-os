@@ -155,6 +155,8 @@ accidentally updated to the next major version.
   - https://github.com/tldr-pages/tlrc
 - **trivy** - _Comprehensive and versatile security scanner._
   - https://github.com/aquasecurity/trivy
+- **witr** - _why-is-this-running._
+  - https://github.com/pranshuparmar/witr
 - **zellij** - _Modern terminal multiplexer (like tmux)._
   - https://github.com/zellij-org/zellij
 - **zoxide** - _Smarter cd command, inspired by z and autojump._

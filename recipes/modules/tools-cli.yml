@@ -23,6 +23,7 @@ modules:
       - install-syft.sh
       - install-tlrc.sh
       - install-trivy.sh
+      - install-witr.sh
       - install-zellij.sh
       - setup-gcloud-repo.sh
       - setup-hashicorp-repo.sh
