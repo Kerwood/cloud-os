@@ -46,6 +46,7 @@ modules:
       - starship
       - zsh
       - jq
+      - yq
       - httpie
       - ripgrep
       - bat
