@@ -73,7 +73,6 @@ modules:
       - fuse-sshfs
       - git-delta
       - screen
-      - golang
       - dua-cli
       - gh
       - fd-find
