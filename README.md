@@ -70,6 +70,8 @@ accidentally updated to the next major version.
 
 - **argocd-cli** - _CLI Tool for managing ArgoCD._
   - https://argo-cd.readthedocs.io/en/stable/cli_installation
+- **atuin** - _Sync, search and backup your shell history._
+  - https://github.com/atuinsh/atuin
 - **azure-cli** - _Azure Cloud commandline tool._
   - https://learn.microsoft.com/en-us/cli/azure
 - **bat** - _Modern cat replacement._
@@ -86,12 +88,20 @@ accidentally updated to the next major version.
   - https://github.com/wagoodman/dive
 - **docker** - _Container runtime._
   - https://www.docker.com
+- **doctl** - _DigitalOcean command-line tool._
+  - https://github.com/digitalocean/doctl
+- **dua-cli** - _Disk usage analyzer._
+  - https://github.com/Byron/dua-cli
 - **duf** - _Disk Usage/Free Utility._
   - https://github.com/muesli/duf
 - **eza** - _Modern ls replacement._
   - https://github.com/eza-community/eza
+- **fd-find** - _A simple, fast alternative to find._
+  - https://github.com/sharkdp/fd
 - **fzf** - _General-purpose command-line fuzzy finder._
   - https://github.com/junegunn/fzf
+- **gh** - _GitHub command-line tool._
+  - https://github.com/cli/cli
 - **git** - _Version control system._
   - https://git-scm.com
 - **git-delta** - _A syntax-highlighting pager for git, diff, and grep output._
@@ -104,6 +114,8 @@ accidentally updated to the next major version.
   - https://github.com/helm/helm
 - **httpie** - _Modern curl replacement._
   - https://httpie.io/cli
+- **igrep** - _Interactive grep tool for searching through files._
+  - https://github.com/konradsz/igrep
 - **just** - _Command runner with improvements over "make"._
   - https://github.com/casey/just
 - **jq** - _Slice, filter, map and transform JSON data with ease._
@@ -118,8 +130,6 @@ accidentally updated to the next major version.
   - https://kubernetes.io/docs/reference/kubectl
 - **kubectx/kubens** - _Switch between Kubenetes contexts or namespaces with ease._
   - https://github.com/ahmetb/kubectx
-- **lazydocker** - _A simple terminal UI for both docker and docker-compose_
-  - https://github.com/jesseduffield/lazydocker
 - **lazygit** - _A simple terminal UI for git commands._
   - https://github.com/jesseduffield/lazygit
 - **mirrord** - _Run local processes in the context of their Kubernetes environment._
@@ -129,8 +139,14 @@ accidentally updated to the next major version.
 - **ncdu** - _Review files and the disk space being used on Linux systems._
 - **paping** - _TCP port testing, emulating the functionality of ping (port ping)_
   - https://code.google.com/archive/p/paping/
+- **pik** - _Interactive process manager for killing processes._
+  - https://github.com/jacek-kurlit/pik
 - **ripgrep** - _Alternative grep replacement._
   - https://github.com/BurntSushi/ripgrep
+- **scooter** - _Interactive find-and-replace in the terminal._
+  - https://github.com/thomasschafer/scooter
+- **rustnet** - _Network diagnostics tool._
+  - https://github.com/domcyrus/rustnet
 - **ShellCheck** - _A static analysis tool for shell scripts._
   - https://www.shellcheck.net/
 - **sshfs** - _SSHFS allows you to mount a remote filesystem using SFTP_
@@ -157,6 +173,8 @@ accidentally updated to the next major version.
   - https://github.com/aquasecurity/trivy
 - **witr** - _why-is-this-running._
   - https://github.com/pranshuparmar/witr
+- **yq** - _YAML processor, like jq for YAML._
+  - https://github.com/mikefarah/yq
 - **zellij** - _Modern terminal multiplexer (like tmux)._
   - https://github.com/zellij-org/zellij
 - **zoxide** - _Smarter cd command, inspired by z and autojump._

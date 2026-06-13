@@ -1,30 +1,7 @@
 modules:
   - type: script
     scripts:
-      - install-argocd-cli.sh
-      - install-atuin.sh
-      - install-bombardier.sh
-      - install-caddy.sh
-      - install-dive.sh
-      - install-doctl.sh
-      - install-eza.sh
-      - install-gum.sh
-      - install-k9s.sh
-      - install-kind.sh
-      - install-krew.sh
-      - install-kubectl.sh
-      - install-kubectx.sh
-      - install-kubens.sh
-      - install-mirrord.sh
-      - install-paping.sh
-      - install-scooter.sh
-      - install-sshs.sh
-      - install-stern.sh
-      - install-syft.sh
-      - install-tlrc.sh
-      - install-trivy.sh
-      - install-witr.sh
-      - install-zellij.sh
+      - install-github-releases.sh
       - setup-gcloud-repo.sh
       - setup-hashicorp-repo.sh
 
