@@ -22,7 +22,7 @@ install_binary() {
     local name=$1 url=$2
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl -sSL -o "$dir/$name" "$url"
+    curl -sSLf -o "$dir/$name" "$url"
     chmod +x "$dir/$name"
     mv "$dir/$name" /usr/bin/
 }
@@ -56,6 +56,7 @@ install_binary kind        "https://github.com/kubernetes-sigs/kind/releases/lat
 install_binary mirrord     "https://github.com/metalbear-co/mirrord/releases/latest/download/mirrord_linux_x86_64"
 install_binary sshs        "https://github.com/quantumsheep/sshs/releases/latest/download/sshs-linux-amd64"
 install_binary witr        "https://github.com/pranshuparmar/witr/releases/latest/download/witr-linux-amd64"
+install_binary pangolin    "https://github.com/fosrl/cli/releases/latest/download/pangolin-cli_linux_amd64"
 
 KUBECTL_VERSION=$(curl -sSL https://dl.k8s.io/release/stable.txt)
 install_binary kubectl "https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl"
@@ -153,3 +154,4 @@ install_rpm "https://github.com/anchore/syft/releases/download/v${V}/syft_${V}_l
 
 # ── post-install ──────────────────────────────────────────────────────────────
 /usr/bin/zellij setup --dump-config > /usr/dotfiles/zellij/config.kdl
+/usr/bin/pangolin completion zsh > /usr/share/zsh/site-functions/_pangolin
