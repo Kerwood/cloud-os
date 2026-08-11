@@ -12,7 +12,7 @@ trap 'rm -rf "$WORKDIR"' EXIT
 # (e.g. "v1.2.3" → "1.2.3") since most asset filenames use the bare version.
 get_version() {
     local repo=$1
-    curl -sL "https://api.github.com/repos/${repo}/releases/latest" \
+    curl --retry 3 --retry-all-errors -sL "https://api.github.com/repos/${repo}/releases/latest" \
         | grep '"tag_name":' \
         | sed -E 's/.*"v?([^"]+)".*/\1/'
 }
@@ -22,7 +22,7 @@ install_binary() {
     local name=$1 url=$2
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl -sSLf -o "$dir/$name" "$url"
+    curl --retry 3 --retry-all-errors -sSLf -o "$dir/$name" "$url"
     chmod +x "$dir/$name"
     mv "$dir/$name" /usr/bin/
 }
@@ -35,7 +35,7 @@ install_tar() {
     local url=$1 archive_path=$2 dest=$3
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl -sSL -o "$dir/archive.tar.gz" "$url"
+    curl --retry 3 --retry-all-errors -sSL -o "$dir/archive.tar.gz" "$url"
     tar -zxf "$dir/archive.tar.gz" -C "$dir"
     mv "$dir/$archive_path" /usr/bin/"$dest"
 }
@@ -45,7 +45,7 @@ install_rpm() {
     local url=$1
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl -sSL -o "$dir/package.rpm" "$url"
+    curl --retry 3 --retry-all-errors -sSL -o "$dir/package.rpm" "$url"
     rpm -i "$dir/package.rpm"
 }
 
@@ -58,7 +58,7 @@ install_binary sshs        "https://github.com/quantumsheep/sshs/releases/latest
 install_binary witr        "https://github.com/pranshuparmar/witr/releases/latest/download/witr-linux-amd64"
 install_binary pangolin    "https://github.com/fosrl/cli/releases/latest/download/pangolin-cli_linux_amd64"
 
-KUBECTL_VERSION=$(curl -sSL https://dl.k8s.io/release/stable.txt)
+KUBECTL_VERSION=$(curl --retry 3 --retry-all-errors -sSL https://dl.k8s.io/release/stable.txt)
 install_binary kubectl "https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl"
 
 # ── tar archives (static URLs, no version lookup) ─────────────────────────────
