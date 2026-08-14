@@ -8,13 +8,38 @@ set -euo pipefail
 WORKDIR=$(mktemp -d)
 trap 'rm -rf "$WORKDIR"' EXIT
 
+# Every download below is silent on success, so without this a failure aborts the
+# build with no indication of which tool broke.
+trap 'echo "ERROR: line ${LINENO}: ${BASH_COMMAND}" >&2' ERR
+
 # Fetches the latest release tag for a GitHub repo and strips the leading 'v'
 # (e.g. "v1.2.3" → "1.2.3") since most asset filenames use the bare version.
+#
+# Resolves the tag from the /releases/latest redirect on github.com rather than
+# api.github.com: unauthenticated API requests are capped at 60/hour per IP, and
+# GitHub Actions runners share egress IPs that routinely exhaust that quota, which
+# made the nightly build fail roughly one run in three.
 get_version() {
-    local repo=$1
-    curl --retry 3 --retry-all-errors -sL "https://api.github.com/repos/${repo}/releases/latest" \
-        | grep '"tag_name":' \
-        | sed -E 's/.*"v?([^"]+)".*/\1/'
+    local repo=$1 url
+
+    # '%{url_effective}' is written even when the request fails, so the exit status
+    # has to be checked explicitly rather than testing the output for emptiness.
+    if ! url=$(curl --retry 3 --retry-all-errors -sSLf -o /dev/null \
+        -w '%{url_effective}' "https://github.com/${repo}/releases/latest"); then
+        echo "ERROR: could not reach the release page for ${repo}" >&2
+        return 1
+    fi
+
+    # A repo with a published release redirects to .../releases/tag/<tag>. Landing
+    # anywhere else means the tag was not resolved and must not be used to build a
+    # download URL.
+    if [[ $url != */releases/tag/* ]]; then
+        echo "ERROR: no latest release for ${repo} (redirected to ${url})" >&2
+        return 1
+    fi
+
+    url=${url##*/tag/}
+    printf '%s' "${url#v}"
 }
 
 # Downloads a single pre-compiled binary, marks it executable, and moves it to /usr/bin.
@@ -35,7 +60,7 @@ install_tar() {
     local url=$1 archive_path=$2 dest=$3
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl --retry 3 --retry-all-errors -sSL -o "$dir/archive.tar.gz" "$url"
+    curl --retry 3 --retry-all-errors -sSLf -o "$dir/archive.tar.gz" "$url"
     tar -zxf "$dir/archive.tar.gz" -C "$dir"
     mv "$dir/$archive_path" /usr/bin/"$dest"
 }
@@ -45,7 +70,7 @@ install_rpm() {
     local url=$1
     local dir
     dir=$(mktemp -d -p "$WORKDIR")
-    curl --retry 3 --retry-all-errors -sSL -o "$dir/package.rpm" "$url"
+    curl --retry 3 --retry-all-errors -sSLf -o "$dir/package.rpm" "$url"
     rpm -i "$dir/package.rpm"
 }
 
@@ -58,7 +83,7 @@ install_binary sshs        "https://github.com/quantumsheep/sshs/releases/latest
 install_binary witr        "https://github.com/pranshuparmar/witr/releases/latest/download/witr-linux-amd64"
 install_binary pangolin    "https://github.com/fosrl/cli/releases/latest/download/pangolin-cli_linux_amd64"
 
-KUBECTL_VERSION=$(curl --retry 3 --retry-all-errors -sSL https://dl.k8s.io/release/stable.txt)
+KUBECTL_VERSION=$(curl --retry 3 --retry-all-errors -sSLf https://dl.k8s.io/release/stable.txt)
 install_binary kubectl "https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl"
 
 # ── tar archives (static URLs, no version lookup) ─────────────────────────────
