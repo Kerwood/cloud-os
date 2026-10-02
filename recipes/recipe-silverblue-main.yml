@@ -27,6 +27,7 @@ modules:
     system:
       enabled:
         - default-groups.service
+        - netbird.service
         - dconf-update.service
         - flatpak-theme.service
         - docker.service

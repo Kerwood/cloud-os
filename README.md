@@ -55,6 +55,8 @@ accidentally updated to the next major version.
   - https://discord.com/
 - **Flameshot** - _Powerful, yet simple to use open-source screenshot software._
   - https://flameshot.org
+- **NetBird** - _WireGuard-based overlay network for connecting devices and services. Includes the desktop UI._
+  - https://netbird.io
 - **Spotify** - _A digital music service that gives you access to millions of songs._
   - https://spotify.com
 - **Ulauncher** - _Application launcher for Linux._

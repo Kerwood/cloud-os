@@ -3,6 +3,7 @@ modules:
     scripts:
       - setup-vscode-repo.sh
       - setup-google-chrome-repo.sh
+      - install-netbird.sh
       #- install-jetbrains-toolbox.sh
       #- install-app-image-launcher.sh
 
@@ -26,6 +27,8 @@ modules:
       - evince # Document Viewer
       - sushi # Quick previewer for Nautilus
       - snapshot
+      - netbird-ui
+      - gnome-shell-extension-appindicator # Tray icon support, needed by netbird-ui
       - cosmic-desktop
 
   - type: default-flatpaks
