@@ -51,6 +51,8 @@ accidentally updated to the next major version.
   - https://github.com/alacritty/alacritty
 - **AppImageLauncher** - _Integrate AppImages into your application launcher with one click_
   - https://github.com/TheAssassin/AppImageLauncher
+- **Brave** - _Privacy-focused web browser based on Chromium._
+  - https://brave.com
 - **Discord** - _An instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media and files._
   - https://discord.com/
 - **Flameshot** - _Powerful, yet simple to use open-source screenshot software._

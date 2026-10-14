@@ -10,10 +10,15 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    # /opt is a symlink to the mutable /var/opt, so anything an RPM installs there is
+    # lost from the image. optfix moves /opt/<dir> into /usr/lib/opt/<dir> and links it back at boot.
     optfix:
       - google
+      - brave.com
     install:
       - google-chrome-stable
+      - brave-browser
       - alacritty
       - code
       - wireshark
