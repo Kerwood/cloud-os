@@ -11,6 +11,7 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      - https://copr.fedorainfracloud.org/coprs/scottames/ghostty/repo/fedora-%OS_VERSION%/scottames-ghostty-fedora-%OS_VERSION%.repo
     # /opt is a symlink to the mutable /var/opt, so anything an RPM installs there is
     # lost from the image. optfix moves /opt/<dir> into /usr/lib/opt/<dir> and links it back at boot.
     optfix:
@@ -20,6 +21,7 @@ modules:
       - google-chrome-stable
       - brave-browser
       - alacritty
+      - ghostty
       - code
       - wireshark
       - ulauncher
